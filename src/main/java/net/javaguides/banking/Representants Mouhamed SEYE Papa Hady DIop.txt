@@ -1,0 +1,57 @@
+       Representants:
+       Mouhamed SEYE : mouhamed.seye2@unchk.edu.sn
+       Papa Hady Diop : papahady.diop@unchk.edu.sn
+
+       Link
+       SOAP : http://localhost:8080/?wsdl
+       REST API : http://localhost:8080/swagger-ui/index.html#/
+
+       Partie 3 : Évaluation et Comparaison
+       Caractéristique	REST	SOAP
+       Avantages REST dans le contexte bancaire:
+       Simplicité: Facilite l'intégration avec des applications front-end modernes.
+       Performance: Adapté aux applications nécessitant des temps de réponse rapides.
+       Flexibilité: Permet d'évoluer facilement en fonction des besoins.
+       Avantages SOAP dans le contexte bancaire:
+
+       Sécurité: Des mécanismes de sécurité robustes sont disponibles.
+       Intégration: Peut s'intégrer facilement avec des systèmes existants utilisant SOAP.
+       Choix technologique:
+       Le choix entre REST et SOAP dépend de plusieurs facteurs :
+
+       Legacy systems: Si l'entreprise possède des systèmes existants utilisant SOAP,
+       il peut être plus facile d'intégrer un nouveau service SOAP.
+       Équipe de développement: Les compétences de l'équipe en matière de développement REST ou SOAP.
+       Exigences de performance: Pour des applications nécessitant des temps de réponse très courts,
+        REST est souvent privilégié.
+       Sécurité: Les exigences de sécurité peuvent influencer le choix entre REST et SOAP.
+       Conclusion
+       Dans le contexte d'une banque en ligne, REST est souvent privilégié en raison de sa simplicité,
+        de sa flexibilité et de sa performance. Cependant, SOAP peut être envisagé pour certaines fonctionnalités
+        spécifiques nécessitant un niveau de sécurité très élevé ou pour l'intégration avec des systèmes existants.
+
+      REST API (Representational State Transfer) et SOAP (Simple Object Access Protocol) sont deux architectures utilisées pour créer des interfaces de programmation (API) permettant aux applications de communiquer entre elles. Bien qu'elles partagent le même objectif, elles diffèrent dans leur approche, leurs avantages et leurs inconvénients.
+
+      REST API est souvent considéré comme l'approche plus moderne et flexible. Il s'agit d'un style architectural qui repose sur les concepts du web (HTTP) pour permettre aux clients (applications) d'accéder et de manipuler des ressources (données). Les caractéristiques clés de REST incluent :
+
+      Stateless: Chaque requête contient toutes les informations nécessaires pour être traitée, sans dépendre d'un état serveur conservé entre les requêtes.
+      Sans état: Les requêtes HTTP (GET, POST, PUT, DELETE) sont utilisées pour effectuer des opérations sur les ressources.
+      Représentation: Les ressources sont représentées sous forme de données (JSON, XML, etc.), ce qui facilite l'échange de données.
+      Uniforme: Un ensemble uniforme de contraintes s'applique à l'identification des ressources, à la manipulation des représentations et à la communication hypermédia.
+      SOAP, quant à lui, est un protocole plus ancien et plus formel. Il utilise XML pour structurer les messages et définit un ensemble strict de règles pour l'échange de données. Les principales caractéristiques de SOAP sont :
+
+      Basé sur XML: Les messages SOAP sont enveloppés dans des structures XML, ce qui peut les rendre plus verbeux que les requêtes REST.
+      Typé: SOAP utilise des schémas XML pour définir la structure des données, offrant ainsi un niveau de typage fort.
+      WSDL: Le langage WSDL (Web Services Description Language) est utilisé pour décrire les services SOAP, ce qui facilite leur découverte et leur utilisation.
+      En résumé, voici les principales différences entre REST et SOAP :
+
+      Flexibilité: REST est plus flexible et adaptable à différents types d'applications, tandis que SOAP est plus rigide et structuré.
+      Performance: REST est généralement plus performant car il utilise des formats de données plus légers (comme JSON) et des protocoles simples (HTTP).
+      Simplicité: REST est plus facile à mettre en œuvre et à comprendre, tandis que SOAP nécessite une configuration plus complexe.
+      Sécurité: SOAP offre des mécanismes de sécurité plus robustes (comme WS-Security), mais REST peut également être sécurisé à l'aide de protocoles comme OAuth.
+      Adoption: REST est devenu le standard de facto pour les API modernes, tandis que SOAP est plus utilisé dans les systèmes d'entreprise existants.
+      Quand choisir REST et quand choisir SOAP ?
+
+      REST: Idéal pour les applications web modernes, les microservices, les API publiques et les applications mobiles. Il est plus facile à apprendre et à mettre en œuvre, et offre une meilleure performance.
+      SOAP: Plus adapté aux systèmes d'entreprise complexes, aux intégrations B2B et aux scénarios nécessitant un niveau de sécurité élevé et une définition stricte des contrats.
+      En conclusion, le choix entre REST et SOAP dépend des besoins spécifiques de votre application. Si vous recherchez une approche simple, flexible et performante, REST est généralement le meilleur choix. Si vous avez besoin d'un niveau de sécurité et de structure plus élevé, SOAP peut être une meilleure option.

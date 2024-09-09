@@ -5,7 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.stereotype.Component;
 
+@Component
 @Getter
 @Setter
 @NoArgsConstructor
@@ -20,4 +22,5 @@ public class Account {
     @Column(name = "account_holder_name")
     private String accountHolderName;
     private  double balance;
+
 }

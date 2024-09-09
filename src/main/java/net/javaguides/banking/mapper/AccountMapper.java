@@ -1,5 +1,4 @@
 package net.javaguides.banking.mapper;
-
 import net.javaguides.banking.dto.AccountDto;
 import net.javaguides.banking.entity.Account;
 
